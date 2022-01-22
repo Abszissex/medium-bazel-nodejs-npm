@@ -1,0 +1,10 @@
+load("@build_bazel_rules_nodejs//:index.bzl", "nodejs_binary")
+
+nodejs_binary(
+    name = "app",
+    entry_point = ":index.js",
+    data = [
+        # Define needed NPM package dependency
+        "@npm//express"
+    ]
+)

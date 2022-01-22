@@ -1,0 +1,17 @@
+{
+  "name": "medium-bazel-nodejs-npm",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abszissex/medium-bazel-nodejs-npm.git"
+  },
+  "author": "Pascal Zwikirsch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abszissex/medium-bazel-nodejs-npm/issues"
+  },
+  "homepage": "https://github.com/Abszissex/medium-bazel-nodejs-npm#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
